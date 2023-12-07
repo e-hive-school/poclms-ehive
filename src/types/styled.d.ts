@@ -1,5 +1,4 @@
 import 'styled-components';
-
 interface ColorWeight {
   100: string;
   200: string;
