@@ -5,6 +5,6 @@ export const MainAreaContainer = styled.main`
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: ${({ theme }) => theme.color.background.light};
+  background-color: ${({ theme }) => theme.color.white};
   padding: 0 1.4rem;
 `;

@@ -19,7 +19,7 @@ export const StyledMainTemplate = styled.div<MainTemplateProps>`
     grid-template-columns: auto minmax(300px, 1fr) auto;
   }
 
-  background-color: ${({ theme }) => theme.color.background.main};
+  background-color: ${({ theme }) => theme.color.primary.light};
 
   height: 100%;
   width: 100vw;

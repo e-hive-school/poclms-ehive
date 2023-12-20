@@ -1,0 +1,938 @@
+{
+  "color": {
+    "arrow": {
+      "value": "#ff3636",
+      "type": "color",
+      "description": "USED ON :: Text, Icons, Lines, fills, Notifications, Gradiants"
+    },
+    "primary": {
+      "main": {
+        "value": "#f3bb19",
+        "type": "color",
+        "description": "USED ON ::  text, Icon, lines, fills"
+      },
+      "dark": {
+        "value": "#b05602",
+        "type": "color",
+        "description": "USED ON :: Lines, fills, Gradiants"
+      },
+      "light": {
+        "value": "#ffecb3",
+        "type": "color",
+        "description": "USED ON :: fills"
+      }
+    },
+    "secondary": {
+      "main": {
+        "value": "#e58625",
+        "type": "color",
+        "description": "USED ON ::  text, Icon, lines, fills"
+      },
+      "dark": {
+        "value": "#af3d0c",
+        "type": "color",
+        "description": "USED ON :: Lines, fills, Gradiants"
+      },
+      "light": {
+        "value": "#f0b87f",
+        "type": "color",
+        "description": "USED ON :: fills"
+      }
+    },
+    "success": {
+      "value": "#28a745",
+      "type": "color",
+      "description": "USED ON :: Text, Icons, Lines, fills, Notifications, Gradiants"
+    },
+    "danger": {
+      "value": "#dc3545",
+      "type": "color",
+      "description": "USED ON :: Text, Icons, Lines, fills, Notifications, Gradiants"
+    },
+    "warning": {
+      "value": "#ffc107",
+      "type": "color",
+      "description": "USED ON :: Text, Icons, Lines, fills, Notifications, Gradiants"
+    },
+    "info": {
+      "value": "#17a2b8",
+      "type": "color",
+      "description": "USED ON :: Text, Icons, Lines, fills, Notifications, Gradiants"
+    },
+    "gray": {
+      "100": {
+        "value": "#f6f6f6",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#e9ecef",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#dee2e6",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#ced4da",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#adb5bd",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#6c757d",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#495057",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#343a40",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#212529",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "USED ON ::Lines "
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color",
+      "description": "USED ON ::Lines "
+    },
+    "blue": {
+      "100": {
+        "value": "#edf6ff",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#9ec5fe",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#6ea8fe",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#3d8bfd",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#0d6efd",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#0a58ca",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#084298",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#052c65",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#031633",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "indigo": {
+      "100": {
+        "value": "#e0cffc",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#c29ffa",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#a370f7",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#8540f5",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#6610f2",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#520dc2",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#3d0a91",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#290661",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#140330",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "purple": {
+      "100": {
+        "value": "#e2d9f3",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#c5b3e6",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#a98eda",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#8c68cd",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#6f42c1",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#59359a",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#432874",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#2c1a4d",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#160d27",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "pink": {
+      "100": {
+        "value": "#f7d6e6",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#efadce",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#e685b5",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#de5c9d",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#d63384",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#ab296a",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#801f4f",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#561435",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#2b0a1a",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "red": {
+      "100": {
+        "value": "#f8d7da",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#f1aeb5",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#ea868f",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#e35d6a",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#dc3545",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#b02a37",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#842029",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#58151c",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#2c0b0e",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "orange": {
+      "100": {
+        "value": "#ffe5d0",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradiants"
+      },
+      "200": {
+        "value": "#fecba1",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "300": {
+        "value": "#feb272",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "400": {
+        "value": "#fd9843",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "500": {
+        "value": "#fd7e14",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "600": {
+        "value": "#ca6510",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "700": {
+        "value": "#984c0c",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "800": {
+        "value": "#653208",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      },
+      "900": {
+        "value": "#331904",
+        "type": "color",
+        "description": "USED ON ::Lines "
+      }
+    },
+    "yellow": {
+      "100": {
+        "value": "#fff3cd",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradients"
+      },
+      "200": {
+        "value": "#ffe69c",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "300": {
+        "value": "#ffda6a",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "400": {
+        "value": "#ffcd39",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "500": {
+        "value": "#ffc107",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "600": {
+        "value": "#cc9a06",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "700": {
+        "value": "#997404",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "800": {
+        "value": "#664d03",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "900": {
+        "value": "#332701",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      }
+    },
+    "green": {
+      "100": {
+        "value": "#d1e7dd",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradients"
+      },
+      "200": {
+        "value": "#a3cfbb",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "300": {
+        "value": "#75b798",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "400": {
+        "value": "#479f76",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "500": {
+        "value": "#198754",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "600": {
+        "value": "#146c43",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "700": {
+        "value": "#0f5132",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "800": {
+        "value": "#0a3622",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "900": {
+        "value": "#051b11",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      }
+    },
+    "teal": {
+      "100": {
+        "value": "#d2f4ea",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradients"
+      },
+      "200": {
+        "value": "#a6e9d5",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "300": {
+        "value": "#79dfc1",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "400": {
+        "value": "#4dd4ac",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "500": {
+        "value": "#20c997",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "600": {
+        "value": "#1aa179",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "700": {
+        "value": "#13795b",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "800": {
+        "value": "#0d503c",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "900": {
+        "value": "#06281e",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      }
+    },
+    "cyan": {
+      "100": {
+        "value": "#cff4fc",
+        "type": "color",
+        "description": "USED ON ::Lines, Gradients"
+      },
+      "200": {
+        "value": "#9eeaf9",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "300": {
+        "value": "#6edff6",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "400": {
+        "value": "#3dd5f3",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "500": {
+        "value": "#0dcaf0",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "600": {
+        "value": "#0aa2c0",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "700": {
+        "value": "#087990",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "800": {
+        "value": "#055160",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      },
+      "900": {
+        "value": "#032830",
+        "type": "color",
+        "description": "USED ON ::Lines"
+      }
+    }
+  },
+  "font": {
+    "fontFamily": {
+      "primary": {
+        "value": "Inter",
+        "type": "fontFamily",
+        "description": "USED ON ::"
+      },
+      "secondary": {
+        "value": "Helvetica",
+        "type": "fontFamily",
+        "description": "USED ON ::"
+      }
+    },
+    "fontSizes": {
+      "xs": {
+        "value": "12",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "sm": {
+        "value": "14",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "base": {
+        "value": "16",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "lg": {
+        "value": "18",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "xl": {
+        "value": "20",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "2xl": {
+        "value": "24",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "3xl": {
+        "value": "30",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "4xl": {
+        "value": "36",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      },
+      "5xl": {
+        "value": "48",
+        "type": "fontSize",
+        "description": "USED ON ::"
+      }
+    },
+    "fontWeights": {
+      "light": {
+        "value": "300",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "normal": {
+        "value": "400",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "semibold": {
+        "value": "600",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "extrabold": {
+        "value": "800",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      },
+      "black": {
+        "value": "900",
+        "type": "fontWeight",
+        "description": "USED ON ::"
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "value": "1.25",
+        "type": "lineHeight",
+        "description": "USED ON ::"
+      },
+      "snug": {
+        "value": "1.375",
+        "type": "lineHeight",
+        "description": "USED ON ::"
+      },
+      "normal": {
+        "value": "1.5",
+        "type": "lineHeight",
+        "description": "USED ON ::"
+      },
+      "relaxed": {
+        "value": "1.625",
+        "type": "lineHeight",
+        "description": "USED ON ::"
+      },
+      "loose": {
+        "value": "2",
+        "type": "lineHeight",
+        "description": "USED ON ::"
+      }
+    },
+    "letterSpacings": {
+      "tighter": {
+        "value": "-0.05",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      },
+      "tight": {
+        "value": "-0.025",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      },
+      "normal": {
+        "value": "0",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      },
+      "wide": {
+        "value": "0.025",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      },
+      "wider": {
+        "value": "0.05",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      },
+      "widest": {
+        "value": "0.1",
+        "type": "letterSpacing",
+        "description": "USED ON ::"
+      }
+    },
+    "textStyles": {
+      "heading1": {
+        "value": {
+          "fontFamily": "Inter",
+          "fontSize": "48",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.05"
+        },
+        "type": "textStyle",
+        "description": "USED ON ::"
+      },
+      "heading2": {
+        "value": {
+          "fontSize": "36",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.05"
+        },
+        "type": "textStyle",
+        "description": "USED ON ::"
+      },
+      "heading3": {
+        "value": {
+          "fontSize": "30",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.05"
+        },
+        "type": "textStyle",
+        "description": "USED ON ::"
+      },
+      "heading4": {
+        "value": {
+          "fontSize": "24",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.05"
+        },
+        "type": "textStyle",
+        "description": "USED ON ::"
+      }
+    }
+  },
+  "boxShadow": {
+    "small": {
+      "value": [
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.10)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "USED ON ::"
+    },
+    "medium": {
+      "value": [
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.12)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Level 2"
+    },
+    "large": {
+      "value": [
+        {
+          "x": "0",
+          "y": "8",
+          "blur": "35",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.16)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Level 3"
+    }
+  },
+  "spacing": {
+    "size": {
+      "none": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "xxs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "12",
+        "type": "spacing",
+        "description": "small"
+      },
+      "md": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Medium"
+      },
+      "lg": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Large"
+      },
+      "xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Giant"
+      },
+      "4xl": {
+        "value": "56",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "64",
+        "type": "spacing"
+      },
+      "6xl": {
+        "value": "72",
+        "type": "spacing"
+      },
+      "7xl": {
+        "value": "80",
+        "type": "spacing"
+      }
+    },
+    "layout": {
+      "container": {
+        "sm": {
+          "value": "540",
+          "type": "spacing",
+          "description": "small"
+        },
+        "md": {
+          "value": "720",
+          "type": "spacing",
+          "description": "Medium"
+        },
+        "lg": {
+          "value": "960",
+          "type": "spacing",
+          "description": "Large"
+        },
+        "xl": {
+          "value": "1140",
+          "type": "spacing"
+        }
+      },
+      "gutter": {
+        "sm": {
+          "value": "16",
+          "type": "spacing",
+          "description": "small"
+        },
+        "md": {
+          "value": "24",
+          "type": "spacing",
+          "description": "Medium"
+        },
+        "lg": {
+          "value": "32",
+          "type": "spacing",
+          "description": "Large"
+        },
+        "xl": {
+          "value": "40",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

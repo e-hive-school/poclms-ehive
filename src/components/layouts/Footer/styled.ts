@@ -6,6 +6,6 @@ export const FooterContainer = styled.footer`
   align-items: center;
   padding: 0 2rem;
   height: 6rem;
-  background-color: ${({ theme }) => theme.color.background.dark};
+  background-color: ${({ theme }) => theme.color.primary.light};
   border-top: 1px solid ${({ theme }) => theme.color.primary.dark};
 `;

@@ -1,0 +1,28 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 16 Dec 2023 04:45:13 GMT
+ */
+
+:root {
+  --token-spacing-size-none: 0;
+  --token-spacing-size-xxs: 0.4rem;
+  --token-spacing-size-xs: 0.8rem;
+  --token-spacing-size-sm: 1.2rem;
+  --token-spacing-size-md: 1.6rem;
+  --token-spacing-size-lg: 2.4rem;
+  --token-spacing-size-xl: 3.2rem;
+  --token-spacing-size-2xl: 4rem;
+  --token-spacing-size-3xl: 4.8rem;
+  --token-spacing-size-4xl: 5.6rem;
+  --token-spacing-size-5xl: 6.4rem;
+  --token-spacing-size-6xl: 7.2rem;
+  --token-spacing-size-7xl: 8rem;
+  --token-spacing-layout-container-sm: 54rem;
+  --token-spacing-layout-container-md: 72rem;
+  --token-spacing-layout-container-lg: 96rem;
+  --token-spacing-layout-container-xl: 114rem;
+  --token-spacing-layout-gutter-sm: 1.6rem;
+  --token-spacing-layout-gutter-md: 2.4rem;
+  --token-spacing-layout-gutter-lg: 3.2rem;
+  --token-spacing-layout-gutter-xl: 4rem;
+}

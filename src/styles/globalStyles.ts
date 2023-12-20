@@ -1,5 +1,11 @@
 import { createGlobalStyle, css } from 'styled-components';
 
+import theme from './tokens/js/tokens';
+
+export type GlobalStyleProps = {
+  theme: typeof theme;
+};
+
 const GlobalStyles = createGlobalStyle`
   *,
   ::before,
@@ -23,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
      }
 
      body {
-       background-color: ${theme.color.background.main};
+       background-color: ${theme.color.primary.main};
        color: ${theme.color.primary.main};
        cursor: default;
        font-family: 'Inter', sans-serif;

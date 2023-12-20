@@ -1,0 +1,10 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 16 Dec 2023 04:45:13 GMT
+ */
+
+:root {
+  --token-box-shadow-small: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+  --token-box-shadow-medium: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
+  --token-box-shadow-large: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
+}

@@ -1,7 +1,12 @@
+import { Logo } from '../../../assets';
 import { HeaderContainer } from './styled';
 
 const Header = () => {
-  return <HeaderContainer>Header</HeaderContainer>;
+  return (
+    <HeaderContainer>
+      <Logo />
+    </HeaderContainer>
+  );
 };
 
 export default Header;
