@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
 
      body {
        background-color: ${theme.color.primary.main};
-       color: ${theme.color.primary.main};
+       /* color: ${theme.color.primary.main}; */
        cursor: default;
        font-family: 'Inter', sans-serif;
        font-size: 1.6rem;

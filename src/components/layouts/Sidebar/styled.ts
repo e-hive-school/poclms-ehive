@@ -11,8 +11,8 @@ export const SidebarContainer = styled.aside`
   padding: 2.4rem 0.4rem;
   gap: 2rem;
 
-  color: ${({ theme }) => theme.color.white};
-  background-color: ${({ theme }) => theme.color.secondary.dark};
+  background-color: ${({ theme }) => theme.color.white};
+  border-right: 1px solid ${({ theme }) => theme.color.primary.main};
 `;
 
 export const SidebarLink = styled.a`
@@ -36,10 +36,11 @@ export const SidebarLink = styled.a`
     font-weight: 500;
   }
 
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.primary.dark};
   border-radius: 0.4rem;
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.primary.dark};
+    color: ${({ theme }) => theme.color.primary.main};
+    background-color: ${({ theme }) => theme.color.primary.light};
   }
 `;
