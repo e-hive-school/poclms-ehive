@@ -1,4 +1,4 @@
-import { Logo } from '../../../assets';
+import { Logo } from '@/assets';
 import { HeaderContainer } from './styled';
 
 const Header = () => {

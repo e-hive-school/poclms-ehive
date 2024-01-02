@@ -1,8 +1,8 @@
-import Footer from './components/layouts/Footer';
-import Header from './components/layouts/Header';
-import Content from './components/layouts/MainArea';
-import Sidebar from './components/layouts/Sidebar';
-import MainTemplate from './components/templates/Maintemplate';
+import Footer from '@/components/layouts/Footer';
+import Header from '@/components/layouts/Header';
+import Content from '@/components/layouts/MainArea';
+import Sidebar from '@/components/layouts/Sidebar';
+import MainTemplate from '@/components/templates/Maintemplate';
 
 function App() {
   return (
